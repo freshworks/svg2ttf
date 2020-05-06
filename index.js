@@ -47,7 +47,7 @@ function svg2ttf(svgString, options) {
   if (typeof options.ts !== 'undefined') {
     font.createdDate = font.modifiedDate = new Date(parseInt(options.ts, 10) * 1000);
   }
-  
+
   // to enable useTypoMetrics, fixes icon misalignment in windows
   if (options.useTypoMetrics) {
     font.fsSelection = 0xC0;
