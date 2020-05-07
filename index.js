@@ -51,7 +51,7 @@ function svg2ttf(svgString, options) {
   // to enable useTypoMetrics, fixes icon misalignment in windows
   if (options.useTypoMetrics) {
     font.fsSelection = 0xC0;
-  }
+  } 
 
   // Try to fill font metrics or guess defaults
   //
